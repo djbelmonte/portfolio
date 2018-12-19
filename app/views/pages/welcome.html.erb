@@ -1,43 +1,8 @@
-<nav class="navbar navbar-light bg-light">
-	  <a class="navbar-brand" href="#">
-	    <img src="http://files.softicons.com/download/web-icons/alphabet-icons-by-supratim-nayak/png/256/j_blue.png" width="30" height="30" class="d-inline-block align-top" alt="">
-	    Jerico
-	  </a>
-	</nav>
-	<div class="jumbotron">
-	  <h1 class="display-1 text-white hello-text">Hello!</h1>
-	  <p class="lead text-white p-5 intro-text">My name is Donn Jerico and I am a Ruby on Rails Developer in the making.</p>
-	  <p class="lead">
-	    <a class="btn btn-primary btn-lg border-white" href="#" role="button">View my Work</a>
-	  </p>
-	</div>
-	<!-- Footer -->
-	<footer class="page-footer bg-light">
-    <div class="container">
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fa fa-facebook"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fa fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fa fa-google-plus"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fa fa-linkedin"> </i>
-          </a>
-        </li>
-      </ul>
 
-    </div>
-    <div class="footer-copyright text-center py-3"> 2018 Copyright</div>
-  </footer>
+<div class="jumbotron">
+  <h1 class="display-1 text-white hello-text">Hello!</h1>
+  <p class="lead text-white p-5 intro-text">My name is Donn Jerico and I am a Ruby on Rails Developer in the making.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg border-white" <%= link_to "View my Work", 'portfolio', class: "btn" %> > </a>
+  </p>
+</div>

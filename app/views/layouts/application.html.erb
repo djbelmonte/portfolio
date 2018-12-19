@@ -10,8 +10,48 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="http://files.softicons.com/download/web-icons/alphabet-icons-by-supratim-nayak/png/256/j_blue.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Jerico
+    </a>
+    <a class="d-inline-block nav-option" <%= link_to "Portfolio", 'portfolio', class: "btn" %> > </a>
+    <a class="d-inline-block nav-option" <%= link_to "About", 'portfolio', class: "btn" %> > </a>
+    <a class="d-inline-block nav-option" <%= link_to "Contact", 'portfolio', class: "btn" %> > </a>
+  </nav>
 
 <%= yield %>
+  
+  <!-- Footer -->
+  <footer class="page-footer bg-light">
+    <div class="container">
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa fa-facebook"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fa fa-google-plus"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fa fa-linkedin"> </i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="footer-copyright text-center py-3"> 2018 Copyright</div>
+  </footer>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -4,6 +4,10 @@
   margin-bottom: 0;
 }
 
+.nav-option:hover {
+  text-decoration: none;
+}
+
 .hello-text {
   font-size: 136px;
   font-family: 'Lobster', cursive;
