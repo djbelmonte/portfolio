@@ -1,0 +1,19 @@
+.jumbotron {
+  background-image: url("https://visualcocaine.org/public/uploads/large/191512459987shhqugbxi8l8jjwijyhneydpv0c4hl1oxhi3jycrlxo3ahtfgi6tpx49eynb6disgnugdc0nxdmvvznnyvhoordwyvcet2bcazbs.jpg");
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.hello-text {
+  font-size: 136px;
+  font-family: 'Lobster', cursive;
+}
+
+.intro-text {
+  font-size: 4vw;
+  font-family: 'Abel', sans-serif;
+}
+
+footer {
+  padding-top: 20px;
+}
